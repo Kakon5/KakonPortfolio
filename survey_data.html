@@ -1,0 +1,104 @@
+<!DOCTYPE HTML>
+<!--
+	Solid State by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Survey Data Visualization</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<h1><a href="index.html">Portfolio</a></h1>
+						<nav>
+							<a href="#menu">Menu</a>
+						</nav>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<div class="inner">
+							<h2>Menu</h2>
+							<ul class="links">
+								<li><a href="index.html">Home</a></li>
+								<!-- <li><a href="generic.html">Generic</a></li>
+								<li><a href="elements.html">Elements</a></li>
+								<li><a href="#">Log In</a></li>
+								<li><a href="#">Sign Up</a></li> -->
+							</ul>
+							<a href="#" class="close">Close</a>
+						</div>
+					</nav>
+
+				<!-- Wrapper -->
+					<section id="wrapper">
+						<header>
+							<div class="inner">
+								<h2>Survey Data Visualization</h2>
+								<p></p>
+							</div>
+						</header>
+
+						<!-- Content -->
+							<div class="wrapper">
+								<div class="inner">
+
+									<h3 class="major">Data Source</h3>
+									<p>An online survey dataset was obtained from <a href="https://github.com/AlexTheAnalyst/Power-BI/blob/main/Power%20BI%20-%20Final%20Project.xlsx">a GitHub source</a>. This dataset encompasses responses collected from diverse data professionals worldwide, capturing information on their data profession, preferred programming languages, salary range, workplace satisfaction across various categories, gender, expectations in data professions, country of residence, and other pertinent details. <br/><br/>
+										<img height="80%" width="80%" src="images/survey_dashboard.png" alt="" />
+									</p>
+									<h3 class="major">Data Transformation</h3>
+									<p>The primary dataset underwent cleaning and transformation to enhance dashboard visualization, employing the following techniques for improved data analysis:
+										<ol>
+											<li>Refining data professions to specific categories, including data analyst, data scientist, student/looking/none, data architect, database developer, and data engineer, while replacing other values with "Other."</li>
+											<li>Computing average salaries from salary ranges (e.g., 41k – 65k).</li>
+											<li>Streamlining workplace types and favorite programming languages by replacing irrelevant values with "Other" to focus on specific information.</li>
+											<li>Substituting any unrelated symbols with actual values for consistency and accuracy in the dataset.</li>
+										</ol>
+										<img height="80%" width="80%" src="images/survey_dataset.png" alt="" />
+									</p>
+									<h3 class="major">Data Visualization</h3>
+									<p>Data has been visualized across various categories, with the total count and average age of respondents featured prominently in the top row of the dashboard. The transformed dataset is presented using the following view types: <br/><br/>
+										<strong>Stacked Bar Chart :</strong> The "Average Salary By Job Title" chart illustrates the average salary across different professions. Notably, Data Scientists have the highest average salary, while the Data Analyst profession ranks third lowest.<br/><br/>
+										<strong>Stacked Column Chart :</strong> "Favorite Programming Language" is visualized through a stacked bar chart, revealing the preferences of specific data professionals for particular programming languages. Python emerges as the most favored language among data analysts.<br/><br/>
+										<strong>Donut Chart :</strong> "Average Salary by Gender" is showcased in a donut chart, highlighting the average salary according to gender. Interestingly, females earn slightly more than males.<br/><br/>
+										<strong>Gauge :</strong> "Happiness with Current Salary" and "Happiness with Work/Life Balance" are depicted in gauge charts, offering an average happiness score for the entire survey dataset.<br/><br/>
+										<strong>Treemap :</strong> "Count of Respondents by Country" is represented in a treemap, indicating that the majority of survey respondents are from the United States and Canada. The treemap also serves as a filter, allowing users to click on a specific country to filter the entire dashboard data accordingly.<br/><br/>
+										<img height="80%" width="80%" src="images/filtered_survey_data.png" alt="" />
+									</p>
+								</div>
+							</div>
+
+					</section>
+
+				<!-- Footer -->
+					<section id="footer">
+						<div class="inner">
+							<ul class="copyright">
+								<li>&copy; Kakon's projects All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+							</ul>
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
